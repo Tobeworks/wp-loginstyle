@@ -1,0 +1,41 @@
+#login h1 a, .login h1 a {
+		height:65px;
+		width:320px;
+		background-size: 320px 65px;
+		background-repeat: no-repeat;
+        padding-bottom: 0px;
+}
+
+.login {
+    background: rgb(2,187,197);
+	background: linear-gradient(138deg, rgba(2,187,197,1) 0%, rgba(110,41,227,1) 100%);
+}
+.login #backtoblog a, .login #nav a {
+	text-decoration: none;
+	color: #fff !important;
+}
+.login form {
+	border-radius: 15px;
+	-webkit-box-shadow: 6px 9px 19px -8px #000000 !important; 
+	box-shadow: 6px 9px 19px -8px #000000 !important;
+}
+#wp-submit{
+	background-color: #3b6ed5;
+	border: 0;
+}
+
+.om-loginform-top {
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 18px !important;
+	text-align: center;
+}
+.om-loginform-top a{
+	color: white;
+	text-decoration: none;
+}
+.om-loginform-top a:hover{
+	color: white;
+	text-decoration: underline;
+}
