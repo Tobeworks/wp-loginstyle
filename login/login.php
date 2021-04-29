@@ -5,7 +5,7 @@
 */
 function omLoginLogo() { 
 	//Style auch bei Login einfügen
-	wp_enqueue_style( 'wpbf-style-child', WPBF_CHILD_THEME_URI . '/login/login.css', false, WPBF_CHILD_VERSION );
+	wp_enqueue_style( 'wpbf-style-child', plugin_dir_url(__FILE__).'login.css', false, WPBF_CHILD_VERSION );
 ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
