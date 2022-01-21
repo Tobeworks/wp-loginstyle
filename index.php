@@ -5,7 +5,7 @@
  * Plugin URI:        
  * Description:       Customized Login 
  * Version:           1.1
- * Author:            Tobias Lorsbach
+ * Author:            Tobias Lorsbach (tobias.lorsbach@omgroup.ch)
  * License:           GPL v2 or later
  * Text Domain:       om-styles
  * Domain Path:       /languages
