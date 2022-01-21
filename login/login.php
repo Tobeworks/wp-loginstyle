@@ -36,7 +36,7 @@ add_filter( 'login_headertitle', 'omLoginText');
  * Additional texts
 */
 function omLoginFormTop(){
-	return '<div class="om-loginform-top">Support: <a href="mailto:support@omgroup.ch?subject=Supportanfrage über '.home_url().'">support@omgroup.ch</a><br>
-Tel: +41 44 536 01 37</div>';
+	return '<div class="om-loginform-top">Support: <a href="mailto:support@omgroup.ch?subject=Supportanfrage über '.home_url(). '">support@omgroup.ch</a><br>
+Tel: +41 44 500 09 09</div>';
 }
 add_filter( 'login_message', 'omLoginFormTop');

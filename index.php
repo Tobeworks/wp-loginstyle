@@ -1,9 +1,10 @@
 <?php
+
 /**
- * Plugin Name:       Om Group Style
+ * Plugin Name:       OmGroup Login Security
  * Plugin URI:        
- * Description:       Loginstyle
- * Version:           1.0
+ * Description:       Customized Login 
+ * Version:           1.1
  * Author:            Tobias Lorsbach
  * License:           GPL v2 or later
  * Text Domain:       om-styles
