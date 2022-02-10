@@ -9,8 +9,9 @@ function omLoginLogo() {
 ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-        background-image: url(<?= plugin_dir_url(__FILE__).'../images/omgrouplogo.svg'; ?>);
+        background-image: url(<?= plugin_dir_url(__FILE__).'../images/omgrouplogo.gif'; ?>);
         }
+
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'omLoginLogo');
@@ -22,6 +23,8 @@ function omLoginUrl() {
     return 'https://online-marketing-group.ch/';
 }
 add_filter( 'login_headerurl', 'omLoginUrl' );
+
+add_filter( 'login_display_language_dropdown', '__return_false' );
 
 /**
  * Admin Logo Text
