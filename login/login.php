@@ -9,7 +9,7 @@ function omLoginLogo() {
 ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-        background-image: url(<?= plugin_dir_url(__FILE__).'../images/omgrouplogo.gif'; ?>);
+        background-image: url(<?= plugin_dir_url(__FILE__).'../images/omgrouplogo.svg'; ?>);
         }
 
     </style>
